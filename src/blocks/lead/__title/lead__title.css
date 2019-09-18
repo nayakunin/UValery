@@ -1,0 +1,6 @@
+.lead__title {
+    color: var(--main-text-color);
+    font-size: var(--h1-font-size);
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}

@@ -1,3 +1,9 @@
-@import url("./_find-employee/btn_find-employee.css");
-@import url("./_find-job/btn_find-job.css");
-@import url("./_login/btn_login.css");
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border: none;
+    border-radius: 60px;
+}

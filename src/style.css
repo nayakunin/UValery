@@ -1,7 +1,16 @@
+@import url("./reset.css");
+@import url("./variables.css");
 @import url("./blocks/btn/btn.css");
 @import url("./blocks/email/email.css");
 @import url("./blocks/footer/footer.css");
 @import url("./blocks/lead/lead.css");
 @import url("./blocks/logo/logo.css");
+@import url("./blocks/main-page/main-page.css");
 @import url("./blocks/menu/menu.css");
 @import url("./blocks/nav/nav.css");
+
+.body {
+    font-family: var(--main-font);
+    padding: 55px 155px 25px 155px;
+    background: linear-gradient(90deg, var(--first-bg-color), var(--second-bg-color));
+}

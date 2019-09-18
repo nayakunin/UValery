@@ -1,2 +1,8 @@
 @import url("./__left/nav__left.css");
 @import url("./__right/nav__right.css");
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

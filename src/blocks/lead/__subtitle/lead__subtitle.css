@@ -1,0 +1,8 @@
+.lead__subtitle {
+    width: 490px;
+    margin-top: 25px;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    font-size: var(--h4-font-size);
+    color: var(--main-text-color);
+}
