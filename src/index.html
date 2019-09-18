@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
-    <title>Document</title>
+    <title>У Валеры</title>
 </head>
-<body>
+
+<body class="body">
+    <nav class="nav">
+        <div class="nav__left">
+            <img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo">
+            <ul class="menu">
+                <li class="menu__item">Резюме</li>
+                <li class="menu__item">Вакансии</li>
+                <li class="menu__item">Блог</li>
+                <li class="menu__item">О проекте</li>
+            </ul>
+        </div>
+        <div class="nav__right">
+            <button class="btn btn_login nav__right_btn-login">Войти</button>
+        </div>
+    </nav>
+    <main class="main-page">
+        <section class="lead">
+            <div class="lead__text">
+                <h1 class="lead__title">Валера - это платформа для людей, которые любят работу со смыслом</h1>
+                <p class="lead__subtitle">Некомерческим организациям помогаем найти сотрудника, а соискателям предлагаем
+                    работу со смыслом</p>
+                <div class="lead__btn-container">
+                    <button class="btn btn_find-job lead__btn">Найти работу</button>
+                    <button class="btn btn_find-employee lead__btn">Найти сотрудника</button>
+                </div>
+            </div>
+            <img src="./images/main-image.png" alt="Ламма Валера" class="lead__image">
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">Дизайн и разработка - insaim</p>
+        <!-- сделать так, чтобы по клику на мыло открывалась почта -->
+        <p class="footer__email">Связаться - <span class="email">rabota@uvalery.ru</span></p>
+        <ul class="footer__social">
+            <li class="footer__social-item">
+                <img src="./images/social/vk.svg" alt="Вконтакте" class="footer__social-link">
+            </li>
+            <li class="footer__social-item">
+                <img src="./images/social/fb.svg" alt="Фейсбук" class="footer__social-link">
+            </li>
+            <li class="footer__social-item">
+                <img src="./images/social/ok.svg" alt="Одноклассники" class="footer__social-link">
+            </li>
+        </ul>
+    </footer>
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
+
 </html>
