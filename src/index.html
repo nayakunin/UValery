@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
     <title>У Валеры</title>
 </head>
@@ -14,28 +15,30 @@
         <div class="nav__left">
             <img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo">
             <ul class="menu">
-                <li class="menu__item">Резюме</li>
-                <li class="menu__item">Вакансии</li>
-                <li class="menu__item">Блог</li>
-                <li class="menu__item">О проекте</li>
+                <li class="menu__item"><a href="#">Резюме</a></li>
+                <li class="menu__item"><a href="#">Вакансии</a></li>
+                <li class="menu__item"><a href="#">Блог</a></li>
+                <li class="menu__item"><a href="#">О проекте</a></li>
             </ul>
         </div>
         <div class="nav__right">
-            <button class="btn btn_login nav__right_btn-login">Войти</button>
+            <a class="btn nav__right_btn-login">Войти</a>
         </div>
     </nav>
     <main class="main-page">
         <section class="lead">
             <div class="lead__text">
-                <h1 class="lead__title">Валера - это платформа для людей, которые любят работу со смыслом</h1>
-                <p class="lead__subtitle">Некомерческим организациям помогаем найти сотрудника, а соискателям предлагаем
-                    работу со смыслом</p>
+                <h1 class="lead__title">Валера &mdash; это платформа для людей, которые любят работу со смыслом</h1>
+                <h4 class="lead__subtitle">Некомерческим организациям помогаем найти сотрудника, а соискателям предлагаем
+                    работу со смыслом</h4>
                 <div class="lead__btn-container">
-                    <button class="btn btn_find-job lead__btn">Найти работу</button>
-                    <button class="btn btn_find-employee lead__btn">Найти сотрудника</button>
+                    <a href="#" class="btn lead__btn">Найти работу</a>
+                    <a href="#" class="btn lead__btn">Найти сотрудника</a>
                 </div>
             </div>
-            <img src="<%=require('./images/main-image.png')%>" alt="Ламма Валера" class="lead__image">
+            <div class="lead__image-container">
+                <img src="<%=require('./images/main-image.png')%>" alt="Ламма Валера" class="lead__image">
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -44,13 +47,13 @@
         <p class="footer__email">Связаться - <span class="email">rabota@uvalery.ru</span></p>
         <ul class="footer__social">
             <li class="footer__social-item">
-                <img src="<%=require('./images/social/vk.svg')%>" alt="Вконтакте" class="footer__social-link">
+                <a href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>" alt="Вконтакте"></a>
             </li>
             <li class="footer__social-item">
-                <img src="<%=require('./images/social/fb.svg')%>" alt="Фейсбук" class="footer__social-link">
+                <a href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>" alt="Фейсбук"></a>
             </li>
             <li class="footer__social-item">
-                <img src="<%=require('./images/social/ok.svg')%>" alt="Одноклассники" class="footer__social-link">
+                <a href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>" alt="Одноклассники"></a>
             </li>
         </ul>
     </footer>
