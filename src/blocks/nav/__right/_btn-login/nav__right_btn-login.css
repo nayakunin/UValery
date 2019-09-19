@@ -1,8 +1,0 @@
-.nav__right_btn-login {
-    width: 127px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 20px;
-    background-color: var(--btn-active-color);
-    color: var(--btn-active-text-color)
-}

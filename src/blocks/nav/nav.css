@@ -1,5 +1,7 @@
 @import url("./__left/nav__left.css");
 @import url("./__right/nav__right.css");
+@import url("__btn-login/nav__btn-login.css");
+@import url("./_default/nav_default.css");
 
 .nav {
     display: flex;

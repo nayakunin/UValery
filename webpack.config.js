@@ -1,11 +1,12 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // добавили плагин
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 module.exports = {
-    entry: {
-        main: './src/index.js'
-    },
+    entry: [
+        './src/index.js',
+    ],
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[chunkhash].js'
@@ -13,31 +14,9 @@ module.exports = {
     module: {
         rules: [{
                 test: /\.(gif|png|jpe?g|svg)$/i,
-                use: [
-                    'file-loader',
-                    {
-                        loader: 'image-webpack-loader',
-                        options: {
-                            mozjpeg: {
-                              progressive: true,
-                              quality: 65
-                            },
-                            optipng: {
-                              enabled: false,
-                            },
-                            pngquant: {
-                              quality: [0.65, 0.90],
-                              speed: 4
-                            },
-                            gifsicle: {
-                              interlaced: false,
-                            },
-                            webp: {
-                              quality: 75
-                            }
-                        }
-                    }
-                ]
+                use: {
+                    loader: 'file-loader',
+                }
             },
             {
                 test: /\.js$/,
@@ -61,6 +40,12 @@ module.exports = {
             hash: true,
             template: './src/index.html',
             filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './src/vacancies.html',
+            filename: 'vacancies.html'
         }),
         new WebpackMd5Hash()
     ]

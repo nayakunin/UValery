@@ -1,8 +1,8 @@
 {
   "name": "uvalery",
-  "homepage": "https://naykunin.github.io/UValery/",
+  "homepage": "https://nayakunin.github.io/UValery/",
   "version": "1.0.0",
-  "description": "",
+  "description": "Валера – это платформа для людей, которые любят работу со смыслом.",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack --mode production",
