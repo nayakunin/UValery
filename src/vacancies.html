@@ -10,67 +10,84 @@
     <title>У Валеры - Вакансии</title>
 </head>
 
-<body class="body body_white">
+<body class="body">
     <nav class="nav nav_default">
         <div class="nav__left">
-            <img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo">
+            <img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo logo_default">
             <ul class="menu">
-                <li class="menu__item"><a href="#">Резюме</a></li>
-                <li class="menu__item"><a href="#">Вакансии</a></li>
-                <li class="menu__item"><a href="#">Блог</a></li>
-                <li class="menu__item"><a href="#">О проекте</a></li>
+                <li class="menu__item menu_default"><a href="#">Резюме</a></li>
+                <li class="menu__item menu_default"><a href="#">Вакансии</a></li>
+                <li class="menu__item menu_default"><a href="#">Блог</a></li>
+                <li class="menu__item menu_default"><a href="#">О проекте</a></li>
             </ul>
         </div>
         <div class="nav__right">
-            <a class="btn nav__btn-login nav__btn-login_default">Войти</a>
+            <a class="btn btn_deep-green nav__btn nav__btn_default">Войти</a>
         </div>
     </nav>
-    <main class="main">
-        <section class="lead">
-            <div class="lead__text">
-                <h1 class="lead__title">Валера поможет найти работу мечты, со смыслом и достойной оплатой</h1>
-                <h4 class="lead__subtitle">Интересная работа в некоммерческой сфере существует, а Валера помогает найти
-                    такие вакансии</h4>
-                <div class="lead__btn-container">
-                    <a href="#" class="btn">Отправить резюме </a>
-                    <a href="#" class="btn">Найти вакансию</a>
-                </div>
+    <section class="lead">
+        <div class="lead__text">
+            <h1 class="lead__title lead__title_black title_h1">Валера поможет найти работу мечты, со смыслом и достойной
+                оплатой</h1>
+            <h4 class="lead__subtitle lead__subtitle_grey lead__subtitle_default">Интересная работа в некоммерческой
+                сфере существует, а
+                Валера помогает найти
+                такие вакансии</h4>
+            <div class="lead__btn-container lead__btn-container_default">
+                <a href="#" class="btn lead__btn lead__btn_default btn_green">
+                    <div>Отправить резюме <img src="<%=require('./images/file.svg')%>" alt="" class="btn_inline-image">
+                    </div>
+                </a>
+                <a href="#" class="btn lead__btn lead__btn_default btn_white-green">Найти вакансию</a>
             </div>
-            <div class="lead__image-container">
-                <img src="<%=require('./images/vacancies-main-image.png')%>" alt="Ламма Валера" class="lead__image">
-            </div>
-        </section>
-        <section class="steps">
-            <ul class="steps__list">
-                <li class="steps__item">
-                    <p class="steps__count">1</p>
+        </div>
+        <div class="lead__image-container">
+            <img src="<%=require('./images/vacancies-main-image.png')%>" alt="Ламма Валера"
+                class="lead__image lead__image_default">
+        </div>
+    </section>
+    <section class="steps">
+        <ul class="steps__list">
+            <li class="steps__item">
+                <p class="steps__count">1</p>
+                <div class="steps__content">
                     <p class="steps__text">Зарегистрируйтесь и заполните резюме</p>
-                </li>
-                <li class="steps__item">
-                    <img src="<%=require('./images/arrow.svg')%>" alt="next" class="steps__arrow">
-                </li>
-                <li class="steps__item">
-                    <p class="steps__count">2</p>
-                    <p class="steps__text">Дождитесь модерации и публикации <span class="steps__text_green">&plusmn; 8
-                            рабочих часов</span></p>
-                </li>
-                <li class="steps__item">
-                    <img src="<%=require('./images/arrow.svg')%>" alt="next" class="steps__arrow">
-                </li>
-                <li class="steps__item">
-                    <p class="steps__count">3</p>
+                </div>
+            </li>
+            <li class="steps__item">
+                <img src="<%=require('./images/arrow.svg')%>" alt="next" class="steps__arrow">
+            </li>
+            <li class="steps__item">
+                <p class="steps__count">2</p>
+                <div class="steps__content">
+                    <p class="steps__text">Дождитесь модерации и публикации</p>
+                    <p class="steps__text steps__text_green">&plusmn; 8 рабочих часов</p>
+                </div>
+
+            </li>
+            <li class="steps__item">
+                <img src="<%=require('./images/arrow.svg')%>" alt="next" class="steps__arrow">
+            </li>
+            <li class="steps__item">
+                <p class="steps__count">3</p>
+                <div class="steps__content">
                     <p class="steps__text">Получайте предложения о работе со смыслом</p>
-                </li>
-            </ul>
-        </section>
-        <section class="vacancies">
-            <h2 class="vacancies__title">Актуальные вакансии</h2>
+                </div>
+
+            </li>
+        </ul>
+    </section>
+    <section class="vacancies">
+        <h2 class="vacancies__title title_h2">Актуальные вакансии</h2>
+        <div class="vacancies__content">
             <div class="vacanices__cards-container">
                 <div class="card">
                     <div class="card__content">
-                        <h3 class="card__title">PR менеджер</h3>
-                        <p class="card__salary">35 000 руб</p>
-                        <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
+                        <div class="card__content_top">
+                            <h3 class="card__title title_h3">PR менеджер</h3>
+                            <p class="card__salary">35 000 руб</p>
+                        </div>
+                        <p class="card__description">Публиковать новости и жизнь Фонда в социальные сети, отвечать на
                             комментарии и быть в курсе всех дел</p>
                         <div class="card__skills-container">
                             <p class="card__skill">SMM</p>
@@ -80,12 +97,14 @@
                             <p class="card__skill">Открытость</p>
                             <p class="card__skill">Целеустремленность</p>
                         </div>
-                        <div class="card__properties-container">
-                            <div class="card__property">Удаленно</div>
-                            <div class="card__property">5/2</div>
-                            <div class="card__property">2/2</div>
+                        <div class="card__content_bottom">
+                            <div class="card__properties-container">
+                                <div class="card__property">Удаленно</div>
+                                <div class="card__property">5/2</div>
+                                <div class="card__property">2/2</div>
+                            </div>
+                            <div class="card__release-date">5 дней назад</div>
                         </div>
-                        <div class="card__release-date">5 дней назад</div>
                     </div>
                     <div class="card__image-container">
                         <img src="<%=require('./images/company_logos/company1.png')%>" alt="Логотип компании"
@@ -94,8 +113,10 @@
                 </div>
                 <div class="card">
                     <div class="card__content">
-                        <h3 class="card__title">PR менеджер</h3>
-                        <p class="card__salary">35 000 руб</p>
+                        <div class="card__content_top">
+                            <h3 class="card__title title_h3">PR менеджер</h3>
+                            <p class="card__salary">35 000 руб</p>
+                        </div>
                         <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
                             комментарии и быть в курсе всех дел</p>
                         <div class="card__skills-container">
@@ -106,12 +127,14 @@
                             <p class="card__skill">Открытость</p>
                             <p class="card__skill">Целеустремленность</p>
                         </div>
-                        <div class="card__properties-container">
-                            <div class="card__property">Удаленно</div>
-                            <div class="card__property">5/2</div>
-                            <div class="card__property">2/2</div>
+                        <div class="card__content__bottom">
+                            <div class="card__properties-container">
+                                <div class="card__property">Удаленно</div>
+                                <div class="card__property">5/2</div>
+                                <div class="card__property">2/2</div>
+                            </div>
+                            <div class="card__release-date">5 дней назад</div>
                         </div>
-                        <div class="card__release-date">5 дней назад</div>
                     </div>
                     <div class="card__image-container">
                         <img src="<%=require('./images/company_logos/company2.png')%>" alt="Логотип компании"
@@ -120,8 +143,10 @@
                 </div>
                 <div class="card">
                     <div class="card__content">
-                        <h3 class="card__title">PR менеджер</h3>
-                        <p class="card__salary">35 000 руб</p>
+                        <div class="card__content_top">
+                            <h3 class="card__title title_h3">PR менеджер</h3>
+                            <p class="card__salary">35 000 руб</p>
+                        </div>
                         <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
                             комментарии и быть в курсе всех дел</p>
                         <div class="card__skills-container">
@@ -132,21 +157,26 @@
                             <p class="card__skill">Открытость</p>
                             <p class="card__skill">Целеустремленность</p>
                         </div>
-                        <div class="card__properties-container">
-                            <div class="card__property">Удаленно</div>
-                            <div class="card__property">5/2</div>
-                            <div class="card__property">2/2</div>
+                        <div class="card__content__bottom">
+                            <div class="card__properties-container">
+                                <div class="card__property">Удаленно</div>
+                                <div class="card__property">5/2</div>
+                                <div class="card__property">2/2</div>
+                            </div>
+                            <div class="card__release-date">5 дней назад</div>
                         </div>
-                        <div class="card__release-date">5 дней назад</div>
                     </div>
                     <div class="card__image-container">
-                        <img src="<%=require('./images/company_logos/company3.png')%>" alt="Логотип компании" class="card__image">
+                        <img src="<%=require('./images/company_logos/company3.png')%>" alt="Логотип компании"
+                            class="card__image">
                     </div>
                 </div>
                 <div class="card">
                     <div class="card__content">
-                        <h3 class="card__title">PR менеджер</h3>
-                        <p class="card__salary">35 000 руб</p>
+                        <div class="card__content_top">
+                            <h3 class="card__title title_h3">PR менеджер</h3>
+                            <p class="card__salary">35 000 руб</p>
+                        </div>
                         <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
                             комментарии и быть в курсе всех дел</p>
                         <div class="card__skills-container">
@@ -157,12 +187,14 @@
                             <p class="card__skill">Открытость</p>
                             <p class="card__skill">Целеустремленность</p>
                         </div>
-                        <div class="card__properties-container">
-                            <div class="card__property">Удаленно</div>
-                            <div class="card__property">5/2</div>
-                            <div class="card__property">2/2</div>
+                        <div class="card__content__bottom">
+                            <div class="card__properties-container">
+                                <div class="card__property">Удаленно</div>
+                                <div class="card__property">5/2</div>
+                                <div class="card__property">2/2</div>
+                            </div>
+                            <div class="card__release-date">5 дней назад</div>
                         </div>
-                        <div class="card__release-date">5 дней назад</div>
                     </div>
                     <div class="card__image-container">
                         <img src="<%=require('./images/company_logos/company4.png')%>" alt="Логотип компании"
@@ -171,8 +203,10 @@
                 </div>
                 <div class="card">
                     <div class="card__content">
-                        <h3 class="card__title">PR менеджер</h3>
-                        <p class="card__salary">35 000 руб</p>
+                        <div class="card__content_top">
+                            <h3 class="card__title title_h3">PR менеджер</h3>
+                            <p class="card__salary">35 000 руб</p>
+                        </div>
                         <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
                             комментарии и быть в курсе всех дел</p>
                         <div class="card__skills-container">
@@ -183,12 +217,14 @@
                             <p class="card__skill">Открытость</p>
                             <p class="card__skill">Целеустремленность</p>
                         </div>
-                        <div class="card__properties-container">
-                            <div class="card__property">Удаленно</div>
-                            <div class="card__property">5/2</div>
-                            <div class="card__property">2/2</div>
+                        <div class="card__content__bottom">
+                            <div class="card__properties-container">
+                                <div class="card__property">Удаленно</div>
+                                <div class="card__property">5/2</div>
+                                <div class="card__property">2/2</div>
+                            </div>
+                            <div class="card__release-date">5 дней назад</div>
                         </div>
-                        <div class="card__release-date">5 дней назад</div>
                     </div>
                     <div class="card__image-container">
                         <img src="<%=require('./images/company_logos/company5.png')%>" alt="Логотип компании"
@@ -197,8 +233,10 @@
                 </div>
                 <div class="card">
                     <div class="card__content">
-                        <h3 class="card__title">PR менеджер</h3>
-                        <p class="card__salary">35 000 руб</p>
+                        <div class="card__content_top">
+                            <h3 class="card__title title_h3">PR менеджер</h3>
+                            <p class="card__salary">35 000 руб</p>
+                        </div>
                         <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
                             комментарии и быть в курсе всех дел</p>
                         <div class="card__skills-container">
@@ -209,12 +247,14 @@
                             <p class="card__skill">Открытость</p>
                             <p class="card__skill">Целеустремленность</p>
                         </div>
-                        <div class="card__properties-container">
-                            <div class="card__property">Удаленно</div>
-                            <div class="card__property">5/2</div>
-                            <div class="card__property">2/2</div>
+                        <div class="card__content__bottom">
+                            <div class="card__properties-container">
+                                <div class="card__property">Удаленно</div>
+                                <div class="card__property">5/2</div>
+                                <div class="card__property">2/2</div>
+                            </div>
+                            <div class="card__release-date">5 дней назад</div>
                         </div>
-                        <div class="card__release-date">5 дней назад</div>
                     </div>
                     <div class="card__image-container">
                         <img src="<%=require('./images/company_logos/company6.png')%>" alt="Логотип компании"
@@ -225,81 +265,88 @@
             <div class="vacancies__filters">
                 <form action="" class="filter">
                     <div class="filter__item">
-                        <h5 class="filter__title">Введите вакансию:</h5>
-                        <input type="text" class="filter__field">
+                        <h5 class="filter__item-title">Введите вакансию:</h5>
+                        <input type="text" class="filter__field filter__field_input">
                     </div>
                     <div class="filter__item">
-                        <h5 class="filter__title">Выберите город:</h5>
+                        <h5 class="filter__item-title">Выберите город:</h5>
                         <input type="text" class="filter__field filter__field_dropdown">
                     </div>
                     <div class="filter__item">
-                        <h5 class="filter__title">Зарплата от:</h5>
-                        <input type="text" class="filter__field">
+                        <h5 class="filter__item-title">Зарплата от:</h5>
+                        <input type="text" class="filter__field filter__field_input">
                     </div>
                     <div class="filter__item">
-                        <h5 class="filter__title">Выберите или напишите ваши навыки:</h5>
-                        <input type="text" class="filter__field filter__field_dropdown">
+                        <h5 class="filter__item-title">Выберите или напишите ваши навыки:</h5>
+                        <input type="text" class="filter__field filter__field_input filter__field_dropdown">
                     </div>
                     <div class="filter__item">
-                        <h5 class="filter__title">График работы:</h5>
-                        <input type="text" class="filter__field filter__field_dropdown">
+                        <h5 class="filter__item-title">График работы:</h5>
+                        <input type="text" class="filter__field filter__field_input filter__field_dropdown">
                     </div>
                     <div class="filter__item">
-                        <h5 class="filter__title">Опыт работы:</h5>
-                        <input type="text" class="filter__field filter__field_dropdown">
+                        <h5 class="filter__item-title">Опыт работы:</h5>
+                        <input type="text" class="filter__field filter__field_input filter__field_dropdown">
                     </div>
-                    <div class="filter__item">
-                        <input type="radio" class="filter__field filter__field_radio">
+                    <div class="filter__item filter__item_radio">
+                        <img src="<%=require('./images/radio-btn.svg')%>" alt="" class="filter__field_radio">
                         <p class="filter__radio-description">Доступно для людей с инвалидностью</p>
                     </div>
                 </form>
             </div>
-            <div class="vacancies__pages">
-                <div class="pages__container">
-                    <button class="pages__btn-left">
-                        <</button> <button class="pages__btn-page">1
-                    </button>
-                    <button class="pages__btn-page">2</button>
-                    <button class="pages__btn-page pages__btn-page_active">3</button>
-                    <button class="pages__btn-page">4</button>
-                    <button class="pages__btn-page">5</button>
-                    <button class="pages__btn-left">></button>
-                </div>
+        </div>
+        <div class="vacancies__pages">
+            <div class="nav-menu-pages__container">
+                <button class="nav-menu-pages__btn nav-menu-pages__btn_left">
+                    <img src="<%=require('./images/arrow-left.svg')%>" alt="">
+                </button>
+                <button class="nav-menu-pages__btn">1</button>
+                <button class="nav-menu-pages__btn">2</button>
+                <button class="nav-menu-pages__btn nav-menu-pages__btn_active">3</button>
+                <button class="nav-menu-pages__btn">4</button>
+                <button class="nav-menu-pages__btn">5</button>
+                <button class="nav-menu-pages__btn nav-menu-pages__btn_right">
+                    <img src="<%=require('./images/arrow-right.svg')%>" alt="">
+                </button>
             </div>
-        </section>
-        <footer class="footer">
-            <ul class="footer__nav">
-                <li class="footer__nav-item">
-                    <a href="#" class="footer__nav_links">Найти работу</a>
-                </li>
-                <li class="footer__nav-item">
-                    <a href="#" class="footer__nav_links">Найти сотрудника</a>
-                </li>
-                <li class="footer__nav-item">
-                    <a href="#" class="footer__nav_links">О проекте</a>
-                </li>
-            </ul>
-            <ul class="footer__social">
-                <li class="footer__social-item">
-                    <a href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
-                            alt="Вконтакте"></a>
-                </li>
-                <li class="footer__social-item">
-                    <a href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
-                            alt="Фейсбук"></a>
-                </li>
-                <li class="footer__social-item">
-                    <a href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
-                            alt="Одноклассники"></a>
-                </li>
-            </ul>
+        </div>
+    </section>
+    <footer class="footer footer_default">
+        <div class="footer__content">
+            <div class="footer__top">
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Найти работу</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Найти сотрудника</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">О проекте</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
+                                alt="Вконтакте"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
+                                alt="Фейсбук"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
+                                alt="Одноклассники"></a>
+                    </li>
+                </ul>
+            </div>
             <div class="footer__bottom">
                 <p class="footer__copyright">Дизайн и разработка - insaim</p>
                 <p class="footer__email">Связаться - <span class="email">rabota@uvalery.ru</span></p>
                 <p class="footer__privacy">Политика конфиденциальности</p>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 
