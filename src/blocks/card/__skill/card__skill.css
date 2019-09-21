@@ -1,0 +1,11 @@
+.card__skill {
+    display: inline-block;
+    padding: 3px 7px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #ceecaf;
+    border-radius: 10px;
+
+    font-size: 14px;
+    line-height: 120%;
+    color: #72b62b;
+}

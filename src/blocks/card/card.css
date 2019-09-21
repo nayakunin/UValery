@@ -1,0 +1,25 @@
+@import url('./__content/card__content.css');
+@import url('./__description/card__description.css');
+@import url('./__image-container/card__image-container.css');
+@import url('./__image/card__image.css');
+@import url('./__properties-container/card__preperties-container.css');
+@import url('./__property/card__property.css');
+@import url('./__release-date/card__release-date.css');
+@import url('./__salary/card__salary.css');
+@import url('./__skills-container/card__skills-container.css');
+@import url('./__skill/card__skill.css');
+@import url('./__title/card__title.css');
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 69% 31%;
+    padding: 25px 20px 20px 20px;
+}
+
+.card:last-of-type {
+    margin-bottom: 0;
+}
