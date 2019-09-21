@@ -1,4 +1,6 @@
+@import url("./_default/logo_default.css");
+
 .logo {
     width: 81px;
-    height: 31px;
+    height: 35px;
 }
