@@ -14,9 +14,23 @@ module.exports = {
     module: {
         rules: [{
                 test: /\.(gif|png|jpe?g|svg)$/i,
-                use: {
+                use: [{
                     loader: 'file-loader',
-                }
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'images/'
+                    }
+                }]
+            },
+            {
+                test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'fonts/'
+                    }
+                }]
             },
             {
                 test: /\.js$/,
