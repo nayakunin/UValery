@@ -1,0 +1,10 @@
+@import url("./__title/vacancies__title.css");
+@import url("./__content/vacancies__content.css");
+@import url("./__card-container/vacancies__card-container.css");
+@import url("./__filters/vacancies__filters.css");
+@import url("./__pages/vacancies__pages.css");
+
+.vacancies {
+    padding-top: 60px;
+    background-color: #fbfbfb;
+}

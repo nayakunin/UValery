@@ -1,0 +1,9 @@
+.steps__content {
+    width: 160px;
+    margin-left: 10px;
+    margin-bottom: 11px;
+}
+
+.steps__item:nth-of-type(3) .steps__content {
+    margin-bottom: -7px;
+}

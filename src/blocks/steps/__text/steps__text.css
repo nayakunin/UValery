@@ -1,0 +1,7 @@
+@import url('./_green/steps__text_green.css');
+
+.steps__text {
+    font-size: 14px;
+    line-height: 120%;
+    color: #9d9d9d;
+}

@@ -1,0 +1,11 @@
+@import url("./__arrow/steps__arrow.css");
+@import url("./__count/steps__count.css");
+@import url("./__item/steps__item.css");
+@import url("./__list/steps__list.css");
+@import url("./__text/steps__text.css");
+@import url("./__content/steps__content.css");
+
+.steps {
+    width: 1140px;
+    margin: 55px auto 60px;
+}

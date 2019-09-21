@@ -1,0 +1,5 @@
+.steps__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

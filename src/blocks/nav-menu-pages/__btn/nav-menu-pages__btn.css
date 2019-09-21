@@ -1,0 +1,18 @@
+@import url("./_active/nav-menu-pages__btn_active.css");
+@import url("./_left/nav-menu-pages__btn_left.css");
+@import url("./_right/nav-menu-pages__btn_right.css");
+
+.nav-menu-pages__btn {
+    width: 30px;
+    height: 35px;
+    border: none;
+    background: #FBFBFB;
+    border-radius: 6px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999AA8;
+}

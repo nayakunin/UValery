@@ -1,0 +1,8 @@
+.vacancies__content {
+    width: 1140px;
+    margin: 30px auto 0;
+
+    display: grid;
+    grid-template-columns: 75% 25%;
+    column-gap: 20px;
+}
