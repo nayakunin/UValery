@@ -7,6 +7,8 @@
 @import url("./__title/lead__title.css");
 
 .lead {
+    width: 1140px;
+    margin: 74px auto;
     display: grid;
     grid-template-columns: 55% 45%;
 }

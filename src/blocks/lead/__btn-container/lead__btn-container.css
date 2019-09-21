@@ -1,4 +1,6 @@
+@import url("./_default/lead__btn-container_default.css");
+@import url("./_homepage/lead__btn-container_homepage.css");
+
 .lead__btn-container {
-    margin-top: 63px;
     display: flex;
 }

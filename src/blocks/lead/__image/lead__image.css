@@ -1,5 +1,7 @@
+@import url("./_default/lead__image_default.css");
+@import url("./_homepage/lead__image_homepage.css");
+
 .lead__image {
     position: absolute;
-    bottom: -57px;
-    right: -53px;
+
 }

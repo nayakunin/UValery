@@ -1,8 +1,11 @@
+@import url("./_grey/lead__subtitle_grey.css");
+@import url("./_default/lead__subtitle_default.css");
+
 .lead__subtitle {
     width: 490px;
     margin-top: 25px;
     line-height: 1.1;
     letter-spacing: 0.5px;
-    font-size: var(--h4-font-size);
-    color: var(--main-text-color);
+    font-size: 22px;
+    color: #fff;
 }
