@@ -1,0 +1,6 @@
+@import url("./_default/body_default.css");
+@import url("./_green/body_green.css");
+
+.body {
+    font-family: 'Geometria';
+}
