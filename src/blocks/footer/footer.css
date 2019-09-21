@@ -1,13 +1,19 @@
+@import url("./__bottom/footer__bottom.css");
 @import url("./__copyright/footer__copyright.css");
+@import url("./__content/footer__content.css");
 @import url("./__email/footer__email.css");
+@import url("./__nav/footer_nav.css");
+@import url("./__nav-item/footer__nav-item.css");
+@import url("./__nav-link/footer__nav-link.css");
+@import url("./__privacy/footer__privacy.css");
 @import url("./__social-item/footer__social-item.css");
 @import url("./__social-link/footer__social-link.css");
+@import url("./__top/footer__top.css");
 @import url("./__social/footer__social.css");
+@import url("./_default/footer_default.css");
 
 .footer {
-    color: var(--main-text-color);
+    color: #fff;
     font-size: 16px;
     line-height: 120%;
-    position: relative;
-    margin-top: 205px;
 }

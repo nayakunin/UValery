@@ -1,4 +1,6 @@
-.footer__email {
+.footer__content_homepage .footer__email {
+    position: relative;
+    right: 70px;
     letter-spacing: 0.5px;
     text-align: center;
 }
