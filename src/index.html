@@ -10,7 +10,7 @@
     <title>У Валеры</title>
 </head>
 
-<body class="body">
+<body class="body body_green">
     <nav class="nav">
         <div class="nav__left">
             <img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo">
@@ -22,40 +22,48 @@
             </ul>
         </div>
         <div class="nav__right">
-            <a href="#" class="btn nav__btn-login nav__btn-login_homepage">Войти</a>
+            <a href="#" class="btn btn_light-yellow nav__btn">Войти</a>
         </div>
     </nav>
     <main class="main-page">
         <section class="lead">
             <div class="lead__text">
-                <h1 class="lead__title">Валера &mdash; это платформа для людей, которые любят работу со смыслом</h1>
-                <h4 class="lead__subtitle">Некомерческим организациям помогаем найти сотрудника, а соискателям предлагаем
-                работу со смыслом</h4>
-                <div class="lead__btn-container">
-                    <a href="vacancies.html" class="btn lead__btn">Найти работу</a>
-                    <a href="#" class="btn lead__btn">Найти сотрудника</a>
+                <h1 class="lead__title lead__title_white title_h1">Валера &mdash; это платформа для людей, которые любят
+                    работу со смыслом</h1>
+                <h4 class="lead__subtitle">Некомерческим организациям помогаем найти сотрудника, а соискателям
+                    предлагаем
+                    работу со смыслом</h4>
+                <div class="lead__btn-container lead__btn-container_homepage">
+                    <a href="vacancies.html" class="btn btn_white-green lead__btn">Найти работу</a>
+                    <a href="#" class="btn btn_white-green lead__btn">Найти сотрудника</a>
                 </div>
             </div>
             <div class="lead__image-container">
-                <img src="<%=require('./images/main-image.png')%>" alt="Ламма Валера" class="lead__image">
+                <img src="<%=require('./images/main-image.png')%>" alt="Ламма Валера"
+                    class="lead__image lead__image_homepage">
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <p class="footer__copyright">Дизайн и разработка - insaim</p>
-        <!-- сделать так, чтобы по клику на мыло открывалась почта -->
-        <p class="footer__email">Связаться - <span class="email">rabota@uvalery.ru</span></p>
-        <ul class="footer__social">
-            <li class="footer__social-item">
-                <a href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>" alt="Вконтакте"></a>
-            </li>
-            <li class="footer__social-item">
-                <a href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>" alt="Фейсбук"></a>
-            </li>
-            <li class="footer__social-item">
-                <a href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>" alt="Одноклассники"></a>
-            </li>
-        </ul>
+    <footer class="footer footer_homepage">
+        <div class="footer__content footer__content_homepage">
+            <p class="footer__copyright">Дизайн и разработка - insaim</p>
+            <!-- сделать так, чтобы по клику на мыло открывалась почта -->
+            <p class="footer__email">Связаться - <span class="email">rabota@uvalery.ru</span></p>
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
+                            alt="Вконтакте"></a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
+                            alt="Фейсбук"></a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
+                            alt="Одноклассники"></a>
+                </li>
+            </ul>
+        </div>
     </footer>
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
