@@ -1,0 +1,6 @@
+@import url("./_description/personal__advantages_description.css");
+@import url("./_title/personal__advantages_title.css");
+
+.personal__advantages {
+    margin-top: 20px;
+}

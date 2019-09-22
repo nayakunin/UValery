@@ -1,0 +1,25 @@
+@import url("./__about-description/personal__about-description.css");
+@import url("./__additional-info/personal__additional-info.css");
+@import url("./__advantages/personal__advantages.css");
+@import url("./__avatar/personal__avatar.css");
+@import url("./__column/personal__column.css");
+@import url("./__contacts/personal__contacts.css");
+@import url("./__disadvantages/personal__disadvantages.css");
+@import url("./__experience/personal__experience.css");
+@import url("./__fullname/personal__fullname.css");
+@import url("./__hobby/personal__hobby.css");
+@import url("./__job-title/personal__job-title.css");
+@import url("./__location/personal__location.css");
+@import url("./__motivation/personal__motivation.css");
+@import url("./__salary/personal__salary.css");
+@import url("./__skills/personal__skills.css");
+@import url("./__title/personal__title.css");
+@import url("./__working-conditions/personal__working-conditions.css");
+
+.personal {
+    width: 1180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+    padding: 60px 0 90px;
+}

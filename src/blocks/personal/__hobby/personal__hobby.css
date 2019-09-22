@@ -1,0 +1,6 @@
+@import url("./_description/personal__hobby_description.css");
+@import url("./_title/personal__hobby_title.css");
+
+.personal__hobby {
+    margin-top: 30px;
+}

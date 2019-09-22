@@ -1,0 +1,7 @@
+@import url("./_container/personal__skills_container.css");
+@import url("./_item/personal__skills_item.css");
+@import url("./_title/personal__skills_title.css");
+
+.personal__skills {
+    margin-top: 30px;
+}

@@ -1,0 +1,13 @@
+.personal__motivation_item {
+    margin-bottom: 10px;
+}
+
+.personal__motivation_item:last-of-type {
+    margin-bottom: 0;
+}
+
+.personal__motivation_item::before {
+    content: "–";
+    color:  #72B62B;
+    margin-right: 7px;
+}

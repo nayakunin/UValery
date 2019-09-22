@@ -1,0 +1,7 @@
+@import url("./_item/personal__motivation_item.css");
+@import url("./_list/personal__motivation_list.css");
+@import url("./_title/personal__motivation_title.css");
+
+.personal__motivation {
+    margin-top: 30px;
+}

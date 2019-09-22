@@ -1,0 +1,9 @@
+@import url("./_item-description/personal__experience_item-description.css");
+@import url("./_item-title-years/personal__experience_item-title-years.css");
+@import url("./_item-title/personal__experience_item-title.css");
+@import url("./_item/personal__experience_item.css");
+@import url("./_title/personal__experience_title.css");
+
+.personal__experience {
+    margin-top: 25px;
+}
