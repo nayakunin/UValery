@@ -1,3 +1,4 @@
 .nav__btn.nav__btn_default {
-    height: 46px;
+    height: 50px;
+    border: 2px solid #7DB35B;
 }
