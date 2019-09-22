@@ -1,12 +1,18 @@
 @import url("./_dropdown/filter__field_drodown.css");
 @import url("./_input/filter__field_input.css");
 @import url("./_radio/filter__field_radio.css");
+@import url("./_dropdown-btn/filter__field_dropdown-btn.css");
 
 .filter__field {
+    padding-left: 9px;
     width: 264px;
     height: 40px;
     border: none;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
     border-radius: 10px;
+}
+
+.filter__field::placeholder {
+    color: #E1E1E1;
 }
