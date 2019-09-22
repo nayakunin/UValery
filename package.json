@@ -1,7 +1,7 @@
 {
   "name": "uvalery",
   "homepage": "https://nayakunin.github.io/UValery/",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Валера – это платформа для людей, которые любят работу со смыслом.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "css-loader": "^3.2.0",
     "cssnano": "^4.1.10",
     "file-loader": "^4.2.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.8.0",

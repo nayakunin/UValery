@@ -61,6 +61,12 @@ module.exports = {
             template: './src/vacancies.html',
             filename: 'vacancies.html'
         }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './src/CV.html',
+            filename: 'CV.html'
+        }),
         new WebpackMd5Hash()
     ]
 };
