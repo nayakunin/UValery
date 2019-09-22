@@ -1,0 +1,10 @@
+.skill-btn {
+    display: inline-block;
+    padding: 3px 8px;
+    border: 1px solid #ceecaf;
+    border-radius: 10px;
+
+    font-size: 14px;
+    line-height: 120%;
+    color: #72b62b;
+}
