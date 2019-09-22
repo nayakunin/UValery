@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>У Валеры - Резюме</title>
+</head>
+
+<body class="body">
+    <nav class="nav nav_default">
+        <div class="nav__left">
+            <img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo logo_default">
+            <ul class="menu">
+                <li class="menu__item menu_default"><a href="#">Резюме</a></li>
+                <li class="menu__item menu_default"><a href="vacancies.html">Вакансии</a></li>
+                <li class="menu__item menu_default"><a href="#">Блог</a></li>
+                <li class="menu__item menu_default"><a href="#">О проекте</a></li>
+            </ul>
+        </div>
+        <div class="nav__right">
+            <button class="btn btn_deep-green nav__btn nav__btn_default">Войти</button>
+        </div>
+    </nav>
+    <section class="personal">
+        <div class="personal__column_left">
+            <img class="personal__avatar" src="<%=require('./images/personal-avatar.png')%>" alt="avatar">
+            <h5 class="personal__title_small personal__fullname">Игорь Рождественский</h5>
+            <p class="personal__location">Москва, 23 года</p>
+            <div class="personal__motivation">
+                <h5 class="personal__title_small personal__motivation_title">Меня мотивирует</h5>
+                <ul class="personal__motivation_list">
+                    <li class="personal__motivation_item">Путешествие</li>
+                    <li class="personal__motivation_item">Любовь</li>
+                    <li class="personal__motivation_item">Море</li>
+                </ul>
+            </div>
+            <div class="personal__hobby">
+                <h5 class="personal__title_small personal__hobby_title">Увлечение</h5>
+                <p class="personal__hobby_description">Летом велосипед и палатки, зимой сноуборд и лыжи</p>
+            </div>
+            <div class="personal__working-conditions">
+                <h5 class="personal__title_small personal__working-conditions_title">Условия работы</h5>
+                <div class="personal__working-conditions_container">
+                    <div class="personal__working-conditions_item">
+                        <img src="<%=require('./images/radio-btn-active.svg')%>" alt=""
+                            class="personal__working-conditions_image">
+                        <p class="personal__working-conditions_description">5/2</p>
+                    </div>
+                    <div class="personal__working-conditions_item">
+                        <img src="<%=require('./images/radio-btn-active.svg')%>" alt=""
+                            class="personal__working-conditions_image">
+                        <p class="personal__working-conditions_description">2/2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="personal__skills">
+                <h5 class="personal__title_small personal__skills_title">Ключевые навыки</h5>
+                <div class="personal__skills_container">
+                    <div class="personal__skills_item skill-btn">SMM</div>
+                    <div class="personal__skills_item skill-btn">Instagram</div>
+                    <div class="personal__skills_item skill-btn">Честность</div>
+                    <div class="personal__skills_item skill-btn">Администратор</div>
+                    <div class="personal__skills_item skill-btn">Открытость</div>
+                    <div class="personal__skills_item skill-btn">Стрессоустойчивость</div>
+                </div>
+            </div>
+            <div class="personal__additional-info">
+                <h5 class="personal__title_small personal__additional-info_title">Дополнительная информация</h5>
+                <p class="personal__additional-info_description">Имеется инвалидность</p>
+            </div>
+        </div>
+        <div class="personal__column_middle">
+            <h1 class="personal__title_main personal__job-title">PR менеджер</h1>
+            <p class="personal__about-description">Компания "Балет с 2 лет" не просто чтит и поддерживает вековые
+                традиции русской балетной школы, но и приносит чувство единения друг с другом всем, кто с ней связан.
+                Работа в "Балет с 2 лет" отличается от работы с любой другой компании. Здесь Вы создаете подлинные
+                ценности и ориентиры для детей, меняя их жизнь.</p>
+            <div class="personal__experience">
+                <h4 class="personal__title_medium personal__experience_title">Опыт работы</h4>
+                <div class="personal__experince_container">
+                    <div class="personal__experience_item">
+                        <h5 class="personal__title_small personal__experience_item-title">Фонд Живой <span
+                                class="personal__experience_item-title-years">(Больше 5 лет)</span></h5>
+                        <p class="personal__experience_item-description">Проектирование и разработка дизайна сайтов,
+                            пользовательских веб-интерфейсов, дизайн баннеров, е-mail рассылок.</p>
+                    </div>
+                    <div class="personal__experience_item">
+                        <h5 class="personal__title_small personal__experience_item-title">Последний адресс <span
+                                class="personal__experience_item-title-years">(2 года)</span></h5>
+                        <p class="personal__experience_item-description">Проектирование и разработка дизайна сайтов,
+                            пользовательских веб-интерфейсов, дизайн баннеров, е-mail рассылок.</p>
+                    </div>
+                    <div class="personal__experience_item">
+                        <h5 class="personal__title_small personal__experience_item-title">Ночлежка <span
+                                class="personal__experience_item-title-years">(3 года)</span></h5>
+                        <p class="personal__experience_item-description">Проектирование и разработка дизайна сайтов,
+                            пользовательских веб-интерфейсов, дизайн баннеров, е-mail рассылок.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="personal__advantages">
+                <h4 class="personal__title_medium personal__advantages_title">Мои сильные стороны</h4>
+                <p class="personal__advantages_description">Компания "Балет с 2 лет" не просто чтит и поддерживает
+                    вековые традиции русской балетной школы, но и приносит чувство единения друг с другом всем, кто с
+                    ней связан.</p>
+            </div>
+            <div class="personal__disadvantages">
+                <h4 class="personal__title_medium personal__disadvantages_title">Мои слабые стороны</h4>
+                <p class="personal__disadvantages_description">Компания "Балет с 2 лет" не просто чтит и поддерживает
+                    вековые традиции русской балетной школы, но и приносит чувство единения друг с другом всем, кто с
+                    ней связан.</p>
+            </div>
+        </div>
+        <div class="personal__column_right">
+            <h3 class="personal__salary">35 000 руб.</h3>
+            <div class="personal__contacts">
+                <h3 class="personal__contacts_section-title">Соц. сети:</h3>
+                <div class="personal__contacts_link-container">
+                    <a href="" class="personal__contacts_link">vk.com/igor222</a>
+                    <a href="" class="personal__contacts_link">facebook.com/igor222</a>
+                    <a href="" class="personal__contacts_link">vk.com/igor222</a>
+                    <a href="" class="personal__contacts_link">facebook.com/igor222</a>
+                </div>
+                <h3 class="personal__contacts_section-title">Контакты:</h3>
+                <a href="" class="personal__contacts_phone">8 (900) 111 - 22 -33</a>
+                <a href="" class="personal__contacts_email">Igor222@gmai.com</a>
+                <button href="" class="btn btn_white-green personal__contacts_btn personal__contacts_btn-pressed">Связаться</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer footer_default">
+        <div class="footer__content">
+            <div class="footer__top">
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Найти работу</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Найти сотрудника</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">О проекте</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
+                                alt="Вконтакте"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
+                                alt="Фейсбук"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
+                                alt="Одноклассники"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">Дизайн и разработка - insaim</p>
+                <p class="footer__email">Связаться - <span class="email">rabota@uvalery.ru</span></p>
+                <p class="footer__privacy">Политика конфиденциальности</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
