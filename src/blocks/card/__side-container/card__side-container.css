@@ -1,0 +1,16 @@
+.card__side-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card__side-container::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 200px;
+    background-color: #CEECAF;
+    transition: opacity 0.3s;
+    opacity: 0;
+}

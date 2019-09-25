@@ -1,0 +1,12 @@
+@import url("./_text/card__additional_text.css");
+@import url("./_title/card__additional_title.css");
+
+.card__additional {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 37px;
+    transition: opacity 0.3s;
+    opacity: 0;
+}

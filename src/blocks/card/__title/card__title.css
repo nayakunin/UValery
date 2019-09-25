@@ -1,3 +1,4 @@
 .card__title {
+    transition: color 0.3s;
     font-weight: bold;
 }

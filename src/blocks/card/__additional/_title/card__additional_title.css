@@ -1,0 +1,8 @@
+.card__additional_title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+
+    margin-bottom: 5px;
+}

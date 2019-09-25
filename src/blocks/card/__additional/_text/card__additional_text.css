@@ -1,0 +1,10 @@
+.card__additional_text {
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.card__additional_text:last-of-type {
+    margin-bottom: 0;
+}
