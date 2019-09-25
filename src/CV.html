@@ -12,16 +12,16 @@
 <body class="body">
     <nav class="nav nav_default">
         <div class="nav__left">
-            <img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo logo_default">
+            <a tabindex="1" href="index.html"><img src="<%=require('./images/logo.svg')%>" alt="Валера" class="logo logo_default"></a>
             <ul class="menu">
-                <li class="menu__item menu_default"><a href="#">Резюме</a></li>
-                <li class="menu__item menu_default"><a href="vacancies.html">Вакансии</a></li>
-                <li class="menu__item menu_default"><a href="#">Блог</a></li>
-                <li class="menu__item menu_default"><a href="#">О проекте</a></li>
+                <li class="menu__item menu_default"><a tabindex="2" class="menu__item_link" href="#">Резюме</a></li>
+                <li class="menu__item menu_default"><a tabindex="3" class="menu__item_link" href="vacancies.html">Вакансии</a></li>
+                <li class="menu__item menu_default"><a tabindex="4" class="menu__item_link" href="#">Блог</a></li>
+                <li class="menu__item menu_default"><a tabindex="5" class="menu__item_link" href="#">О проекте</a></li>
             </ul>
         </div>
         <div class="nav__right">
-            <button class="btn btn_deep-green nav__btn nav__btn_default">Войти</button>
+            <a tabindex="6" href="login.html" class="btn btn_deep-green btn_link nav__btn nav__btn_sign-in nav__btn_default"><span class="nav__btn_text">Войти</span></a>
         </div>
     </nav>
     <section class="personal">
@@ -119,15 +119,15 @@
             <div class="personal__contacts">
                 <h3 class="personal__contacts_section-title">Соц. сети:</h3>
                 <div class="personal__contacts_link-container">
-                    <a href="" class="personal__contacts_link">vk.com/igor222</a>
-                    <a href="" class="personal__contacts_link">facebook.com/igor222</a>
-                    <a href="" class="personal__contacts_link">vk.com/igor222</a>
-                    <a href="" class="personal__contacts_link">facebook.com/igor222</a>
+                    <a tabindex="7" href="" class="personal__contacts_link">vk.com/igor222</a>
+                    <a tabindex="8" href="" class="personal__contacts_link">facebook.com/igor222</a>
+                    <a tabindex="9" href="" class="personal__contacts_link">vk.com/igor222</a>
+                    <a tabindex="10" href="" class="personal__contacts_link">facebook.com/igor222</a>
                 </div>
                 <h3 class="personal__contacts_section-title">Контакты:</h3>
-                <a href="" class="personal__contacts_phone">8 (900) 111 - 22 -33</a>
-                <a href="" class="personal__contacts_email">Igor222@gmai.com</a>
-                <button href="" class="btn btn_white-green personal__contacts_btn personal__contacts_btn-pressed">Связаться</button>
+                <a tabindex="11" href="" class="personal__contacts_phone">8 (900) 111 - 22 -33</a>
+                <a tabindex="12" href="" class="personal__contacts_email">Igor222@gmai.com</a>
+                <button class="btn btn_white-green personal__contacts_btn personal__contacts_btn-pressed">Связаться</button>
             </div>
         </div>
     </section>
@@ -136,33 +136,33 @@
             <div class="footer__top">
                 <ul class="footer__nav">
                     <li class="footer__nav-item">
-                        <a href="#" class="footer__nav-link">Найти работу</a>
+                        <a tabindex="13" href="#" class="footer__nav-link">Найти работу</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="#" class="footer__nav-link">Найти сотрудника</a>
+                        <a tabindex="14" href="#" class="footer__nav-link">Найти сотрудника</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="#" class="footer__nav-link">О проекте</a>
+                        <a tabindex="15" href="#" class="footer__nav-link">О проекте</a>
                     </li>
                 </ul>
                 <ul class="footer__social">
                     <li class="footer__social-item">
-                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
+                        <a tabindex="16" href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
                                 alt="Вконтакте"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
+                        <a tabindex="17" href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
                                 alt="Фейсбук"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
+                        <a tabindex="18" href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
                                 alt="Одноклассники"></a>
                     </li>
                 </ul>
             </div>
             <div class="footer__bottom">
                 <p class="footer__copyright">Дизайн и разработка - insaim</p>
-                <p class="footer__email">Связаться - <span class="email">rabota@uvalery.ru</span></p>
+                <p class="footer__email">Связаться - <a tabindex="19" href="mailto:rabota@uvalery.ru" class="email">rabota@uvalery.ru</a></p>
                 <p class="footer__privacy">Политика конфиденциальности</p>
             </div>
         </div>
