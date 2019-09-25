@@ -15,7 +15,7 @@
     Сервер будет доступен по адресу <http://localhost:8000>
     
 ## Демо
-[Ссылка](https://nayakunin.github.io/UValery/)
+<https://nayakunin.github.io/UValery/>
 
 ## Статус проекта
 В данный момент сайт является статичным. В планах подключение к серверу.
