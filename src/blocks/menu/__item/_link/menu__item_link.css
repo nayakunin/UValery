@@ -1,0 +1,11 @@
+.menu__item_link {
+    transition: color 0.3s;
+    transition-timing-function: ease-out;
+    text-decoration: none;
+    color: #fff
+}
+
+.menu__item_link:hover {
+    color: #F1EA68;
+
+}

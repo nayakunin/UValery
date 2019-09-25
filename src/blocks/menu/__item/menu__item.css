@@ -1,8 +1,5 @@
+@import url('./_link/menu__item_link.css');
+
 .menu__item {
     margin-left: 40px;
-}
-
-.menu__item a {
-    text-decoration: none;
-    color: #fff;
 }
