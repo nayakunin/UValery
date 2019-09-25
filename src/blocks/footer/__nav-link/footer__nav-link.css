@@ -4,4 +4,13 @@
     font-weight: 500;
     line-height: 20px;
     color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.footer__nav-link:hover {
+    color: #F1EA68;
+}
+
+.footer__nav-link:focus {
+    color: #F1EA68;
 }
