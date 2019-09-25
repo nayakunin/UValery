@@ -1,6 +1,10 @@
 @import url("./_default/nav__btn_default.css");
+@import url("./_sign-in/nav__btn_sign-in.css");
+@import url("./_signed/nav__btn_signed.css");
 
 .nav__btn {
+    position: relative;
+    z-index: 1;
     width: 127px;
     height: 50px;
     text-decoration: none;
