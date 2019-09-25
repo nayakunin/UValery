@@ -1,0 +1,12 @@
+@import url("./_label-text/filter__checkbox_label-text.css");
+@import url("./_label/filter__checkbox_label.css");
+@import url("./_container/filter__checkbox_container.css");
+
+.filter__checkbox {
+    top: 7px;
+    left: 6px;
+}
+
+.filter__checkbox:checked+.filter__checkbox_label::after{
+    opacity: 1;
+}
