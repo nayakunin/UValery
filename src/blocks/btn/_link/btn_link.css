@@ -1,0 +1,18 @@
+.btn_link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: color 0.3s, background-color 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.btn_link:hover {
+    background-color: #F1EA68;
+    color:#5B8C3A;
+}
+
+.btn_link:focus {
+    background-color: #F1EA68;
+    color:#5B8C3A;
+}

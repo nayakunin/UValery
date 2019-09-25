@@ -1,10 +1,14 @@
 @import url("./_deep-green/btn_deep-green.css");
 @import url("./_green/btn_green.css");
 @import url("./_light-yellow/btn_light-yellow.css");
+@import url("./_link/btn_link.css");
 @import url("./_white-green/btn_white-green.css");
 @import url("./_inline-image/btn_inline-image.css");
 
 .btn {
+    font-weight: 500;
+    width: 127px;
+    height: 50px;
     border: none;
     border-radius: 60px;
 }
