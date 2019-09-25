@@ -1,0 +1,16 @@
+@import url("./__close-btn/login__close-btn.css");
+@import url("./__input/login__input.css");
+@import url("./__restore-password/login__restore-password.css");
+@import url("./__sign-in/login__sign-in.css");
+@import url("./__sign-up/login__sign-up.css");
+@import url("./__title/login__title.css");
+
+.login {
+    padding: 60px 0 60px;
+    margin: 80px auto;
+    width: 700px;
+    background: #FBFBFB;
+    box-shadow: 0px 20px 34px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    text-align: center;
+}

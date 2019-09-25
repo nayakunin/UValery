@@ -1,0 +1,8 @@
+@import url("./_button/login__sign-up_button.css");
+@import url("./_privacy-link/login__sign-up_privacy-link.css");
+@import url("./_privacy/login__sign-up_privacy.css");
+@import url("./_active/login__sign-up_active.css");
+
+.login__sign-up {
+    display: none;
+}

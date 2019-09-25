@@ -1,0 +1,12 @@
+.login__input_container {
+    display: flex;
+    flex-direction: column;
+
+    width: 264px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.login__input_container:last-of-type {
+    margin-bottom: 10px;
+}
