@@ -1,0 +1,11 @@
+.contact__title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.contact__title:nth-of-type(2) {
+    margin-top: 30px;
+}

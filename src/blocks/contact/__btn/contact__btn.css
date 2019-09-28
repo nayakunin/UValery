@@ -1,0 +1,12 @@
+@import url("./_pressed/contact__btn_pressed.css");
+
+.contact__btn {
+    width: 222px;
+    height: 50px;
+    margin-top: 10px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
