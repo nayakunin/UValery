@@ -15,14 +15,16 @@
             <a tabindex="1" href="index.html"><img src="<%=require('./images/logo.svg')%>" alt="Валера"
                     class="logo logo_default"></a>
             <ul class="menu">
-                <li class="menu__item menu_default"><a tabindex="2" class="menu__item_link" href="CV.html">Резюме</a></li>
+                <li class="menu__item menu_default"><a tabindex="2" class="menu__item_link" href="cv.html">Резюме</a>
+                </li>
                 <li class="menu__item menu_default"><a tabindex="3" class="menu__item_link" href="">Вакансии</a></li>
                 <li class="menu__item menu_default"><a tabindex="4" class="menu__item_link" href="#">Блог</a></li>
                 <li class="menu__item menu_default"><a tabindex="5" class="menu__item_link" href="#">О проекте</a></li>
             </ul>
         </div>
         <div class="nav__right">
-            <a tabindex="6" href="login.html" class="btn btn_deep-green btn_link nav__btn nav__btn_sign-in nav__btn_default"><span
+            <a tabindex="6" href="login.html"
+                class="btn btn_deep-green btn_link nav__btn nav__btn_sign-in nav__btn_default"><span
                     class="nav__btn_text">Войти</span></a>
         </div>
     </nav>
@@ -37,7 +39,8 @@
                     <div>Отправить резюме <img src="<%=require('./images/file.svg')%>" alt="" class="btn_inline-image">
                     </div>
                 </a>
-                <a tabindex="8" href="#" class="btn lead__btn btn_link lead__btn_default btn_white-green">Найти вакансию</a>
+                <a tabindex="8" href="#" class="btn lead__btn btn_link lead__btn_default btn_white-green">Найти
+                    вакансию</a>
             </div>
         </div>
         <div class="lead__side-container">
@@ -301,47 +304,250 @@
                 <form action="" class="filter">
                     <div class="filter__item">
                         <label for="filter__vacancy" class="filter__item-title">Введите вакансию:</label>
-                        <input tabindex="9" id="filter__vacancy" type="text" class="input__text filter__field_input" pattern="[А-Я]?[а-я]+(\ [А-Я]?[а-я]+)?">
+                        <input tabindex="9" id="filter__vacancy" type="text" class="input__text filter__field_input"
+                            pattern="[А-Я]?[а-я]+(\ [А-Я]?[а-я]+)?">
                     </div>
-                    <div class="filter__item">
+                    <div class="filter__item filter__item_dropdown">
                         <label for="filter__city" class="filter__item-title">Выберите город:</label>
                         <input tabindex="10" id="filter__city" type="text"
-                            class="input__text input__text_dropdown filter__field_dropdown" pattern="[А-Я]?[а-я]+(\ [А-Я]?[а-я]+)?">
+                            class="input__text input__text_dropdown filter__field_dropdown"
+                            pattern="[А-Я]?[а-я]+(\ [А-Я]?[а-я]+)?">
                         <img class="filter__field_dropdown-btn" src="<%=require('./images/filter-dropdown-btn.svg')%>"
                             alt="dropdown-button">
+                        <div class="input__dropdown dropdown dropdown_select dropdown_hidden">
+                            <label class="dropdown__item" for="1_1">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_1">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Москва</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_2">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_2">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Санкт Петербург</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_3">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_3">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Казань</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_4">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_4">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Москва</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_5">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_5">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Санкт Петербург</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_6">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_6">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Казань</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_7">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_7">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Москва</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_8">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_8">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Санкт Петербург</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_9">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_9">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Казань</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_10">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_10">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Москва</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_11">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_11">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Санкт Петербург</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="1_12">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="1_12">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Казань</span>
+                                </div>
+                            </label>
+                        </div>
                     </div>
                     <div class="filter__item">
                         <label for="filter__salary" class="filter__item-title">Зарплата от:</label>
                         <input tabindex="11" id="filter__salary" type="text" class="input__text  filter__field_input"
                             placeholder="25 000" pattern="\d+">
                     </div>
-                    <div class="filter__item">
+                    <div class="filter__item filter__item_dropdown">
                         <label for="filter__skills" class="filter__item-title">Выберите или напишите ваши
                             навыки:</label>
                         <input tabindex="12" id="filter__skills" type="text"
-                            class="input__text input__text_dropdown filter__field_input filter__field_dropdown">
+                            class="input__text input__text_dropdown filter__field_input filter__field_dropdown"
+                            placeholder="Не выбрано">
                         <img class="filter__field_dropdown-btn" src="<%=require('./images/filter-dropdown-btn.svg')%>"
                             alt="dropdown-button">
+                        <div class="input__dropdown dropdown dropdown_select dropdown_hidden">
+                            <label class="dropdown__item" for="2_1">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_1">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Администратор</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_2">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_2">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">SMM</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_3">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_3">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Microsoft Office</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_4">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_4">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Администратор</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_5">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_5">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">CRM</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_6">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_6">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Microsoft Office</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_7">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_7">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Администратор</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_8">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_8">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">CRM</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_9">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_9">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Microsoft Office</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_10">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_10">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Администратор</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_11">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_11">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">SMM</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="2_12">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="2_12">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Microsoft Office</span>
+                                </div>
+                            </label>
+                        </div>
                     </div>
-                    <div class="filter__item">
+                    <div class="filter__item filter__item_dropdown">
                         <label for="filter__working-schedule" class="filter__item-title">График работы:</label>
                         <input tabindex="13" id="filter__working-schedule" type="text"
                             class="input__text input__text_dropdown filter__field_input filter__field_dropdown"
                             placeholder="Полный день">
                         <img class="filter__field_dropdown-btn" src="<%=require('./images/filter-dropdown-btn.svg')%>"
                             alt="dropdown-button">
+                        <div class="input__dropdown dropdown dropdown_select dropdown_hidden dropdown_small">
+                            <label class="dropdown__item" for="3_1">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="3_1">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Полный день</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="3_2">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="3_2">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Сменный график</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="3_3">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="3_3">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Удаленная работа</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="3_4">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="3_4">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Гибкий график</span>
+                                </div>
+                            </label>
+                        </div>
                     </div>
-                    <div class="filter__item">
+                    <div class="filter__item filter__item_dropdown">
                         <label for="filter__experience" class="filter__item-title">Опыт работы:</label>
                         <input tabindex="14" id="filter__experience" type="text"
                             class="input__text input__text_dropdown filter__field_input filter__field_dropdown"
                             placeholder="Без опыта">
                         <img class="filter__field_dropdown-btn" src="<%=require('./images/filter-dropdown-btn.svg')%>"
                             alt="dropdown-button">
+                        <div class="input__dropdown dropdown dropdown_select dropdown_hidden dropdown_small">
+                            <label class="dropdown__item" for="4_1">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="4_1">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Без опыта</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="4_2">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="4_2">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">От 1 года до 3 лет</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="4_3">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="4_3">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">От 3 до 6 лет</span>
+                                </div>
+                            </label>
+                            <label class="dropdown__item" for="4_4">
+                                <input type="checkbox" name="" class="input__checkbox dropdown__checkbox" id="4_4">
+                                <div class="dropdown__item-label">
+                                    <span class="dropdown__item-text">Более 6 лет</span>
+                                </div>
+                            </label>
+                        </div>
                     </div>
                     <div class="filter__item">
                         <label class="filter__checkbox_container" for="usability-checkbox">
-                            <input tabindex="15" type="checkbox" name="" class="input__checkbox filter__checkbox"
+                            <input tabindex="15" type="checkbox" name="" class="filter__checkbox"
                                 id="usability-checkbox">
                             <div class="filter__checkbox_label">
                                 <span class="filter__checkbox_label-text">Доступно для людей с инвалидностью</span>
@@ -383,22 +589,23 @@
                 </ul>
                 <ul class="footer__social">
                     <li class="footer__social-item">
-                        <a tabindex="25" href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
-                                alt="Вконтакте"></a>
+                        <a tabindex="25" href="#" class="footer__social-link"><img
+                                src="<%=require('./images/social/vk.svg')%>" alt="Вконтакте"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a tabindex="26" href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
-                                alt="Фейсбук"></a>
+                        <a tabindex="26" href="#" class="footer__social-link"><img
+                                src="<%=require('./images/social/fb.svg')%>" alt="Фейсбук"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a tabindex="27" href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
-                                alt="Одноклассники"></a>
+                        <a tabindex="27" href="#" class="footer__social-link"><img
+                                src="<%=require('./images/social/ok.svg')%>" alt="Одноклассники"></a>
                     </li>
                 </ul>
             </div>
             <div class="footer__bottom">
                 <p class="footer__copyright">Дизайн и разработка - insaim</p>
-                <p class="footer__email">Связаться - <a tabindex="28" href="mailto:rabota@uvalery.ru" class="email">rabota@uvalery.ru</a></p>
+                <p class="footer__email">Связаться - <a tabindex="28" href="mailto:rabota@uvalery.ru"
+                        class="email">rabota@uvalery.ru</a></p>
                 <p class="footer__privacy">Политика конфиденциальности</p>
             </div>
         </div>
