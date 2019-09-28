@@ -1,0 +1,4 @@
+.input__dropdown {
+    display: flex;
+    flex-direction: column;
+}
