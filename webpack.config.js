@@ -64,8 +64,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './src/CV.html',
-            filename: 'CV.html'
+            template: './src/cv.html',
+            filename: 'cv.html'
         }),
         new HtmlWebpackPlugin({
             inject: false,
