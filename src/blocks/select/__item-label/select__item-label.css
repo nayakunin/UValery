@@ -1,0 +1,31 @@
+.select__item-label {
+    position: relative;
+    z-index: 2;
+    display: block;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.select__item-label::after,
+.select__item-label::before {
+    right: 0;
+    top: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #72B62B;
+    border-radius: 50%;
+}
+
+.select__item-label::after {
+    top: 0;
+    right: 0;
+    background-image: url("../../../images/radio-btn-active.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition: opacity 0.1s;
+    opacity: 0;
+}

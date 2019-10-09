@@ -1,0 +1,7 @@
+.select__option {
+    margin-bottom: 14px;
+}
+
+.select__option:last-of-type {
+    margin-bottom: 0;
+}
