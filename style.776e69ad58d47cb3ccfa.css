@@ -1587,4 +1587,122 @@ textarea {
     padding: 60px 0 75px;
     background-color: #fbfbfb;
 }
+.select__option {
+    margin-bottom: 14px;
+}
+
+.select__option:last-of-type {
+    margin-bottom: 0;
+}
+.select__option-container_hidden {
+    display: none;
+}
+.select__option-container {
+    position: absolute;
+    z-index: 3;
+    top: 52px;
+    width: 227px;
+    padding: 24px 19px 24px 19px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+
+    cursor: default;
+}
+.select__input-bar {
+    position: relative;
+    height: 34px;
+    width: 256px;
+    padding-top: 8px;
+    padding-left: 9px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+}
+.select__text_placeholder {
+    line-height: 25px;
+    color: #E1E1E1;
+}
+.select__text_placeholder-hidden {
+    display: none;
+}
+
+.select__text_result-hidden {
+    display: none;
+}
+
+.select__result-close {
+    cursor: pointer;
+    margin-left: 15px;
+}
+.select__dropdown-btn_active {
+    transform: rotate(420deg);
+}
+.select__dropdown-btn {
+    position: absolute;
+    top: 19px;
+    right: 10px;
+
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.select__checkbox {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    opacity: 0;
+    z-index: 1;
+}
+
+.select__checkbox:checked+.select__item-label::after{
+    opacity: 1;
+}
+
+.select__checkbox:checked+.select__item-label {
+    color: #72B62B;
+}
+.select__item-label {
+    position: relative;
+    z-index: 2;
+    display: block;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.select__item-label::after,
+.select__item-label::before {
+    right: 0;
+    top: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #72B62B;
+    border-radius: 50%;
+}
+
+.select__item-label::after {
+    top: 0;
+    right: 0;
+    background-image: url(images/radio-btn-active.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition: opacity 0.1s;
+    opacity: 0;
+}
+
+.select__item {
+    position: relative;
+    margin-bottom: 5px;
+}
+.select {
+    position: relative;
+}
+
+.select:hover {
+    cursor: text;
+    width: 264px;
+}
 
