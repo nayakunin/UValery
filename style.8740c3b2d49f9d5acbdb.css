@@ -580,6 +580,10 @@ textarea {
     color:#5B8C3A;
 }
 
+.btn_link:hover path, .btn_link:focus path {
+    fill: #5B8C3A;
+}
+
 .btn_link:focus {
     background-color: #F1EA68;
     color:#5B8C3A;
@@ -589,7 +593,16 @@ textarea {
     color: #6AA730;
 }
 .btn_inline-image {
-    display: inline-block;
+    display: inline;
+}
+
+.btn_inline-image path {
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.btn_inline-image:hover path {
+    fill: #F1EA68;
 }
 .btn {
     font-weight: 500;
@@ -1023,6 +1036,14 @@ textarea {
 .footer__social-item {
     margin-left: 20px;
 }
+.footer__social-link_svg path {
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.footer__social-link_svg:hover path {
+    fill: #F1EA68;
+}
 
 .footer__top {
     display: flex;
@@ -1080,6 +1101,10 @@ textarea {
 .lead__btn.lead__btn_default:nth-of-type(2) {
     margin-left: 30px;
     width: 194px;
+}
+.lead__btn_text {
+    position: relative;
+    bottom: 6px;
 }
 .lead__btn {
     width: 260px;
@@ -1551,6 +1576,13 @@ textarea {
 .steps {
     width: 1140px;
     margin: 55px auto 60px;
+}
+.svg {
+    width: 40px;
+}
+
+.svg:hover {
+    fill: yellow;
 }
 .title_large {
     font-size: 46px;
