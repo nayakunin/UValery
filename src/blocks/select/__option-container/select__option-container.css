@@ -1,0 +1,14 @@
+@import url('./_hidden/select__option-container_hidden.css');
+
+.select__option-container {
+    position: absolute;
+    z-index: 3;
+    top: 52px;
+    width: 227px;
+    padding: 24px 19px 24px 19px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+
+    cursor: default;
+}
