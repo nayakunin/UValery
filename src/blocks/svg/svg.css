@@ -1,0 +1,7 @@
+.svg {
+    width: 40px;
+}
+
+.svg:hover {
+    fill: yellow;
+}
