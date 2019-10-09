@@ -1,0 +1,19 @@
+@import url("./__option/select__option.css");
+@import url("./__option-container/select__option-container.css");
+@import url("./__input-bar/select__input-bar.css");
+@import url("./__text/select__text.css");
+@import url("./__result-close/select__result-close.css");
+@import url("./__dropdown-btn/select__dropdown-btn.css");
+@import url("./__checkbox/select__checkbox.css");
+@import url("./__item-label/select__item-label.css");
+@import url("./__item-text/select__item-text.css");
+@import url("./__item/select__item.css");
+
+.select {
+    position: relative;
+}
+
+.select:hover {
+    cursor: text;
+    width: 264px;
+}

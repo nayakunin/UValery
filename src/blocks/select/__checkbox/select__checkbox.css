@@ -1,0 +1,15 @@
+.select__checkbox {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    opacity: 0;
+    z-index: 1;
+}
+
+.select__checkbox:checked+.select__item-label::after{
+    opacity: 1;
+}
+
+.select__checkbox:checked+.select__item-label {
+    color: #72B62B;
+}

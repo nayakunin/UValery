@@ -1,0 +1,10 @@
+@import url("./_active/select__dropdown-btn_active.css");
+
+.select__dropdown-btn {
+    position: absolute;
+    top: 19px;
+    right: 10px;
+
+    cursor: pointer;
+    transition: transform 0.3s;
+}
