@@ -1,0 +1,20 @@
+.job__property {
+    position: relative;
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 120%;
+    color: #666666;
+
+    padding-left: 29px;
+    margin-right: 50px;
+}
+
+.job__property::before {
+    position: absolute;
+    left: 3px;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url('./radio-btn-active.svg');
+    background-repeat: no-repeat;
+}

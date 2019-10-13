@@ -12,6 +12,7 @@
 @import url('./__title/card__title.css');
 
 .card {
+    font-family: Geometria;
     background-color: #fff;
     border-radius: 20px;
     margin-bottom: 20px;

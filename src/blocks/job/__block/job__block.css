@@ -1,0 +1,9 @@
+@import url('./_card/job__block_card.css');
+
+.job__block {
+    margin-bottom: 33px;
+}
+
+.job__block:last-of-type {
+    margin-bottom: 0;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <title>PR менеджер</title>
+</head>
+
+<body>
+  <nav class="nav nav_default">
+    <div class="nav__left">
+      <a tabindex="1" href="index.html"><img src="<%=require('./images/logo.svg')%>" alt="Валера"
+          class="logo logo_default"></a>
+      <ul class="menu">
+        <li class="menu__item menu_default"><a tabindex="2" class="menu__item_link" href="cv.html">Резюме</a>
+        </li>
+        <li class="menu__item menu_default"><a tabindex="3" class="menu__item_link" href="">Вакансии</a></li>
+        <li class="menu__item menu_default"><a tabindex="4" class="menu__item_link" href="#">Блог</a></li>
+        <li class="menu__item menu_default"><a tabindex="5" class="menu__item_link" href="#">О проекте</a></li>
+      </ul>
+    </div>
+    <div class="nav__right">
+      <a tabindex="6" href="login.html"
+        class="btn btn_deep-green btn_link nav__btn nav__btn_sign-in nav__btn_default"><span
+          class="nav__btn_text">Войти</span></a>
+    </div>
+  </nav>
+  <section class="job">
+    <div class="job__leftside">
+      <h1 class="job__title title">PR менеджер</h1>
+      <div class="job__content">
+        <div class="job__block">
+          <h3 class="job__block-title">Описание:</h3>
+          <p class="job__paragraph">Компания "Балет с 2 лет" не просто чтит и поддерживает вековые традиции русской
+            балетной
+            школы, но и приносит чувство единения друг с другом всем, кто с ней связан. </p>
+        </div>
+        <div class="job__block">
+          <h3 class="job__block-title">Вознаграждение:</h3>
+          <p class="job__paragraph">Карьерный рост, молодой колектив,<br> обучение внутри компании </p>
+        </div>
+        <div class="job__block">
+          <h3 class="job__block-title">Опыт работы:</h3>
+          <p class="job__paragraph">От 1 года до 3 лет</p>
+        </div>
+        <div class="job__block">
+          <h3 class="job__block-title">Обязанности:</h3>
+          <ul class="job__list">
+            <li class="job__list-item">Встреча гостей, консультирование, продажи абонементов</li>
+            <li class="job__list-item">Обеспечение комфортного пребывания мам и их детей в нашей школе</li>
+            <li class="job__list-item">Текущие вопросы работы школы (расписания и тд)</li>
+            <li class="job__list-item">Обеспечение бесперебойной работы школы, хозяйственные и организационные вопросы
+            </li>
+            <li class="job__list-item">Повышение продаж, отчеты в&nbsp;управляющую&nbsp;компанию</li>
+            <li class="job__list-item">Взаимодействие с преподавателями</li>
+            <li class="job__list-item">Работа в CRM системе</li>
+            <li class="job__list-item">Общение с родителями и детьми</li>
+          </ul>
+        </div>
+        <div class="job__block">
+          <h3 class="job__block-title">Ключевые навыки:</h3>
+          <div class="job__skills-container">
+            <p class="job__skill skill-btn">SMM</p>
+            <p class="job__skill skill-btn">Instagram</p>
+            <p class="job__skill skill-btn">Администратор</p>
+            <p class="job__skill skill-btn">Честность</p>
+            <p class="job__skill skill-btn">Открытость</p>
+            <p class="job__skill skill-btn">Целеустремленность</p>
+          </div>
+        </div>
+        <div class="job__block">
+          <h3 class="job__block-title">Форма занятости:</h3>
+          <div class="job__properties-container">
+            <div class="job__property">5/2</div>
+            <div class="job__property">2/2</div>
+          </div>
+        </div>
+        <div class="job__block">
+          <h3 class="job__block-title">График работы:</h3>
+          <p class="job__paragraph">Полный день</p>
+        </div>
+      </div>
+    </div>
+    <div class="job__rightside">
+      <h2 class="job__salary">35 000 руб.</h2>
+      <div class="job__card">
+        <div class="job__logo-wrapper">
+          <img src="<%=require('./images/company_logos/company4.png')%>" alt="" class="job__logo">
+        </div>
+        <div class="job__block job__block_card">
+          <h3 class="job__block-title">Все дети могут</h3>
+          <p class="job__paragraph">Все, без исключения, дети могут - подарите им такую возможность!</p>
+        </div>
+        <div class="job__block job__block_card">
+          <h3 class="job__block-title">Ценности:</h3>
+          <ul class="job__list job__list_card">
+            <li class="job__list-item">Дружественность</li>
+            <li class="job__list-item">Открытость</li>
+            <li class="job__list-item">Честнось</li>
+          </ul>
+        </div>
+        <div class="job__block job__block_card">
+          <h3 class="job__block-title">Контакты:</h3>
+          <a href="" class="job__contact-link job__contact-link_dimmed">livefund.ru</a>
+        </div>
+        <button class="job__contact-btn btn btn_green">Связаться </button>
+      </div>
+    </div>
+  </section>
+  <section class="job__related">
+    <h2 class="job__subtitle">Похожие вакансии</h2>
+    <div class="job__cards-container">
+      <div class="card">
+        <div class="card__content">
+          <div class="card__content_top">
+            <h3 class="card__title title_small">PR менеджер</h3>
+            <p class="card__salary">35 000 руб</p>
+          </div>
+          <p class="card__description">Публиковать новости и жизнь Фонда в социальные сети, отвечать на
+            комментарии и быть в курсе всех дел</p>
+          <div class="card__skills-container">
+            <p class="card__skill skill-btn">SMM</p>
+            <p class="card__skill skill-btn">Instagram</p>
+            <p class="card__skill skill-btn">Администратор</p>
+            <p class="card__skill skill-btn">Честность</p>
+            <p class="card__skill skill-btn">Открытость</p>
+            <p class="card__skill skill-btn">Целеустремленность</p>
+          </div>
+          <div class="card__content_bottom">
+            <div class="card__properties-container">
+              <div class="card__property">Удаленно</div>
+              <div class="card__property">5/2</div>
+              <div class="card__property">2/2</div>
+            </div>
+            <div class="card__release-date">5 дней назад</div>
+          </div>
+        </div>
+        <div class="card__side-container">
+          <div class="card__additional">
+            <h5 class="card__additional_title">НКО:</h5>
+            <p class="card__additional_text">"Антон тут рядом"</p>
+            <h5 class="card__additional_title">Адрес:</h5>
+            <p class="card__additional_text">Г. Новороссийск, ул. Видова, д.214</p>
+          </div>
+          <img src="<%=require('./images/company_logos/company1.png')%>" alt="Логотип компании" class="card__image">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__content">
+          <div class="card__content_top">
+            <h3 class="card__title title_small">PR менеджер</h3>
+            <p class="card__salary">35 000 руб</p>
+          </div>
+          <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
+            комментарии и быть в курсе всех дел</p>
+          <div class="card__skills-container">
+            <p class="card__skill skill-btn">SMM</p>
+            <p class="card__skill skill-btn">Instagram</p>
+            <p class="card__skill skill-btn">Администратор</p>
+            <p class="card__skill skill-btn">Честность</p>
+            <p class="card__skill skill-btn">Открытость</p>
+            <p class="card__skill skill-btn">Целеустремленность</p>
+          </div>
+          <div class="card__content_bottom">
+            <div class="card__properties-container">
+              <div class="card__property">Удаленно</div>
+              <div class="card__property">5/2</div>
+              <div class="card__property">2/2</div>
+            </div>
+            <div class="card__release-date">5 дней назад</div>
+          </div>
+        </div>
+        <div class="card__side-container">
+          <div class="card__additional">
+            <h5 class="card__additional_title">НКО:</h5>
+            <p class="card__additional_text">"Антон тут рядом"</p>
+            <h5 class="card__additional_title">Адрес:</h5>
+            <p class="card__additional_text">Г. Новороссийск, ул. Видова, д.214</p>
+          </div>
+          <img src="<%=require('./images/company_logos/company2.png')%>" alt="Логотип компании" class="card__image">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__content">
+          <div class="card__content_top">
+            <h3 class="card__title title_small">PR менеджер</h3>
+            <p class="card__salary">35 000 руб</p>
+          </div>
+          <p class="card__description">Публиковать новости и жизнь ФОнда в социальные сети, отвечать на
+            комментарии и быть в курсе всех дел</p>
+          <div class="card__skills-container">
+            <p class="card__skill skill-btn">SMM</p>
+            <p class="card__skill skill-btn">Instagram</p>
+            <p class="card__skill skill-btn">Администратор</p>
+            <p class="card__skill skill-btn">Честность</p>
+            <p class="card__skill skill-btn">Открытость</p>
+            <p class="card__skill skill-btn">Целеустремленность</p>
+          </div>
+          <div class="card__content_bottom">
+            <div class="card__properties-container">
+              <div class="card__property">Удаленно</div>
+              <div class="card__property">5/2</div>
+              <div class="card__property">2/2</div>
+            </div>
+            <div class="card__release-date">5 дней назад</div>
+          </div>
+        </div>
+        <div class="card__side-container">
+          <div class="card__additional">
+            <h5 class="card__additional_title">НКО:</h5>
+            <p class="card__additional_text">"Антон тут рядом"</p>
+            <h5 class="card__additional_title">Адрес:</h5>
+            <p class="card__additional_text">Г. Новороссийск, ул. Видова, д.214</p>
+          </div>
+          <img src="<%=require('./images/company_logos/company3.png')%>" alt="Логотип компании" class="card__image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer footer_default">
+    <div class="footer__content">
+      <div class="footer__top">
+        <ul class="footer__nav">
+          <li class="footer__nav-item">
+            <a tabindex="22" href="#" class="footer__nav-link">Найти работу</a>
+          </li>
+          <li class="footer__nav-item">
+            <a tabindex="23" href="#" class="footer__nav-link">Найти сотрудника</a>
+          </li>
+          <li class="footer__nav-item">
+            <a tabindex="24" href="#" class="footer__nav-link">О проекте</a>
+          </li>
+        </ul>
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a tabindex="25" href="#" class="footer__social-link"><img src="<%=require('./images/social/vk.svg')%>"
+                alt="Вконтакте"></a>
+          </li>
+          <li class="footer__social-item">
+            <a tabindex="26" href="#" class="footer__social-link"><img src="<%=require('./images/social/fb.svg')%>"
+                alt="Фейсбук"></a>
+          </li>
+          <li class="footer__social-item">
+            <a tabindex="27" href="#" class="footer__social-link"><img src="<%=require('./images/social/ok.svg')%>"
+                alt="Одноклассники"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">Дизайн и разработка - insaim</p>
+        <p class="footer__email">Связаться - <a tabindex="28" href="mailto:rabota@uvalery.ru"
+            class="email">rabota@uvalery.ru</a></p>
+        <p class="footer__privacy">Политика конфиденциальности</p>
+      </div>
+    </div>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+</html>

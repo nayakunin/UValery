@@ -1,0 +1,7 @@
+@import url('./_card/job__list_card.css');
+
+.job__list {
+    margin-top: 12px;
+    width: 370px;
+    padding-left: 23px;
+}

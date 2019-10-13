@@ -13,6 +13,7 @@
 @import url("./_default/footer_default.css");
 
 .footer {
+    font-family: Geometria;
     color: #fff;
     font-size: 16px;
     line-height: 120%;

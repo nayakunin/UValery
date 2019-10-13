@@ -73,6 +73,12 @@ module.exports = {
             template: './src/login.html',
             filename: 'login.html'
         }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './src/prmanager.html',
+            filename: 'prmanager.html'
+        }),
         new WebpackMd5Hash()
     ]
 };

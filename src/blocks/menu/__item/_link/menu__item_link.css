@@ -2,7 +2,8 @@
     transition: color 0.3s;
     transition-timing-function: ease-out;
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    font-family: Geometria;
 }
 
 .menu__item_link:hover {

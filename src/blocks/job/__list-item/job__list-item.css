@@ -1,0 +1,18 @@
+.job__list-item {
+    position: relative;
+    margin-bottom: 19px;
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.job__list-item::before {
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: -21px;
+    background-image: url('./–.svg');
+    width: 10px;
+    height: 3px;
+}

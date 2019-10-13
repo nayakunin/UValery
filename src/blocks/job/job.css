@@ -1,0 +1,33 @@
+@import url('./__block-title/job__block-title.css');
+@import url('./__block/job__block.css');
+@import url('./__card/job__card.css');
+@import url('./__cards-container/job__cards-container.css');
+@import url('./__contact-btn/job__contact-btn.css');
+@import url('./__contact-link/job__contact-link.css');
+@import url('./__content/job__content.css');
+@import url('./__leftside/job__leftside.css');
+@import url('./__list-item/job__list-item.css');
+@import url('./__logo/job__logo.css');
+@import url('./__logo-wrapper/job__logo-wrapper.css');
+@import url('./__list/job__list.css');
+@import url('./__paragraph/job__paragraph.css');
+@import url('./__properties-container/job__properties-container.css');
+@import url('./__property/job__property.css');
+@import url('./__related/job__related.css');
+@import url('./__rightside/job__rightside.css');
+@import url('./__salary/job__salary.css');
+@import url('./__skill/job__skill.css');
+@import url('./__skills-container/job__skills-container.css');
+@import url('./__subtitle/job__subtitle.css');
+@import url('./__title/job__title.css');
+
+.job {
+    padding-top: 72px;
+    padding-bottom: 82px;
+    width: 1146px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

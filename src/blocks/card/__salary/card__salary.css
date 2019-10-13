@@ -4,4 +4,7 @@
     color: #000;
     text-align: end;
     font-weight: bold;
+
+    display: flex;
+    align-items: flex-end;
 }

@@ -1,0 +1,6 @@
+.job__skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    width: 435px;
+}

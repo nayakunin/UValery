@@ -1,0 +1,5 @@
+.job__properties-container {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-start;
+}

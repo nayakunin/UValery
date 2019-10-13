@@ -1,10 +1,20 @@
 @import url("./_default/lead__btn_default.css");
 @import url("./_text/lead__btn_text.css");
+@import url('./_two-items/lead__btn_two-items.css');
 
 .lead__btn {
     width: 260px;
     height: 50px;
     text-decoration: none;
+}
+
+.lead__btn:hover .lead__btn_file-img path {
+    display: inline-block;
+    fill:#5B8C3A; 
+}
+
+.lead__btn_file-img path {
+    transition: fill 0.3s;
 }
 
 .lead__btn:nth-of-type(2){
