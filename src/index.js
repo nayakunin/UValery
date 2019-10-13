@@ -88,10 +88,14 @@ class Select {
     }
 }
 
-const citySelect = new Select(document.querySelector('.select_city'));
-const skillsSelect = new Select(document.querySelector('.select_skills'));
-const scheduleSelect = new Select(document.querySelector('.select_schedule'));
-const experienceSelect = new Select(document.querySelector('.select_experience'));
+const selects = document.querySelector('.select_city');
+
+if (selects) {
+    const citySelect = new Select(document.querySelector('.select_city'));
+    const skillsSelect = new Select(document.querySelector('.select_skills'));
+    const scheduleSelect = new Select(document.querySelector('.select_schedule'));
+    const experienceSelect = new Select(document.querySelector('.select_experience'));
+}
 
 const contactBtn = document.querySelector(".contact__btn");
 
