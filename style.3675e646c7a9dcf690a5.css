@@ -605,6 +605,7 @@ textarea {
     fill: #F1EA68;
 }
 .btn {
+    font-family: Geometria;
     font-weight: 500;
     width: 127px;
     height: 50px;
@@ -645,7 +646,7 @@ textarea {
     margin-bottom: 10px;
 }
 .card__content_bottom {
-    margin-top: 20px;
+    margin-top: 4px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -688,6 +689,9 @@ textarea {
     color: #000;
     text-align: end;
     font-weight: bold;
+
+    display: flex;
+    align-items: flex-end;
 }
 .card__side-container {
     position: relative;
@@ -714,10 +718,13 @@ textarea {
     margin: 0 10px 10px 0;
 }
 .card__title {
+    text-decoration: none;
+    color: #000;
     transition: color 0.3s;
     font-weight: bold;
 }
 .card {
+    font-family: Geometria;
     background-color: #fff;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -1012,9 +1019,10 @@ textarea {
 }
 .footer__nav {
     display: flex;
+    margin-top: 4px;
 }
 .footer__nav-item {
-    margin-right: 30px;
+    margin-right: 64px;
 }
 .footer__nav-link {
     text-decoration: none;
@@ -1060,6 +1068,7 @@ textarea {
     background: linear-gradient(90deg, #719D44 0%, #57853C 100%);
 }
 .footer {
+    font-family: Geometria;
     color: #fff;
     font-size: 16px;
     line-height: 120%;
@@ -1084,6 +1093,187 @@ textarea {
 }
 
 
+.job__block-title {
+    font-family: Geometria;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    color: #000000;
+}
+.job__block.job__block_card {
+    margin-bottom: 29px;
+}
+.job__block {
+    margin-bottom: 33px;
+}
+
+.job__block:last-of-type {
+    margin-bottom: 0;
+}
+.job__card {
+    margin-top: 60px;
+    width: 282px;
+    padding: 20px 40px 40px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+.job__cards-container {
+    margin-top: 30px;
+    width: 854px;
+}
+.job__contact-btn {
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    margin-top: 23px;
+    width: 100%;
+}
+.job__contact-link_dimmed {
+    opacity: 0.2;
+}
+.job__contact-link {
+    text-decoration: none;
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 120%;
+    color: #72B62B;
+
+    display: block;
+    margin-top: 11px;
+}
+.job__content {
+    margin-top: 29px;
+}
+.job__leftside {
+    width: 580px;
+}
+.job__list-item {
+    position: relative;
+    margin-bottom: 19px;
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.job__list-item::before {
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: -21px;
+    background-image: url(images/–.svg);
+    width: 10px;
+    height: 3px;
+}
+.job__logo {
+    margin: auto;
+}
+.job__logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.job__list.job__list_card {
+    width: 259px;
+}
+.job__list {
+    margin-top: 12px;
+    width: 370px;
+    padding-left: 23px;
+}
+.job__paragraph {
+    margin-top: 12px;
+
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.job__properties-container {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+.job__property {
+    position: relative;
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 120%;
+    color: #666666;
+
+    padding-left: 29px;
+    margin-right: 50px;
+}
+
+.job__property::before {
+    position: absolute;
+    left: 3px;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url(images/radio-btn-active.svg);
+    background-repeat: no-repeat;
+}
+.job__related {
+    padding-top: 60px;
+    padding-bottom: 84px;
+
+    background-color: #FBFBFB;
+}
+.job__related-wrapper {
+    width: 1180px;
+    margin: auto;
+}
+
+.job__salary {
+    font-family: Geometria;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 181%;
+    color: #020303;
+    text-align: end;
+}
+.job__skill {
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 1px;
+
+    margin-right: 14px;
+    margin-bottom: 9px;
+}
+.job__skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    width: 435px;
+}
+.job__subtitle {
+    font-family: Geometria;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+}
+.job__title {
+    font-family: Geometria;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 120%;
+    color: #000000;
+}
+.job {
+    padding-top: 72px;
+    padding-bottom: 82px;
+    width: 1146px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .lead__btn-container_default {
     margin-top: 32px;
 }
@@ -1110,6 +1300,15 @@ textarea {
     width: 260px;
     height: 50px;
     text-decoration: none;
+}
+
+.lead__btn:hover .lead__btn_file-img path {
+    display: inline-block;
+    fill:#5B8C3A; 
+}
+
+.lead__btn_file-img path {
+    transition: fill 0.3s;
 }
 
 .lead__btn:nth-of-type(2){
@@ -1259,7 +1458,8 @@ textarea {
     transition: color 0.3s;
     transition-timing-function: ease-out;
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    font-family: Geometria;
 }
 
 .menu__item_link:hover {
