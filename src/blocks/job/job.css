@@ -14,6 +14,7 @@
 @import url('./__properties-container/job__properties-container.css');
 @import url('./__property/job__property.css');
 @import url('./__related/job__related.css');
+@import url('./__related-wrapper/job__related-wrapper.css');
 @import url('./__rightside/job__rightside.css');
 @import url('./__salary/job__salary.css');
 @import url('./__skill/job__skill.css');
