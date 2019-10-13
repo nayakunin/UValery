@@ -1,6 +1,5 @@
 @import url("./_default/lead__btn_default.css");
 @import url("./_text/lead__btn_text.css");
-@import url('./_two-items/lead__btn_two-items.css');
 
 .lead__btn {
     width: 260px;
